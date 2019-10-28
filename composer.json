@@ -1,0 +1,21 @@
+{
+    "name": "captaincodey/private-messages",
+    "description": "No description yet",
+    "type": "flarum-extension",
+    "require": {
+        "flarum/core": "0.1.0-beta.8.1"
+    },
+    "autoload": {
+        "psr-4": {"CaptainCodey\\PrivateMessages\\": "src/"}
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Private Messages",
+            "icon": {
+                "name": "fas fa-history",
+                "backgroundColor": "#a70613",
+                "color": "#fff"
+            }
+        }
+    }
+}
